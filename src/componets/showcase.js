@@ -21,6 +21,7 @@ export default function mainShowcase() {
   // heading text
   h2.innerText = "We Design Delicious";
   h2.classList.add("styled");
+  h2.classList.add("show-heading");
 
   p.innerText =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam";
@@ -34,7 +35,7 @@ headingDiv.appendChild(p);
   for (let i = 0; i < 3; i++) {
     let parent = document.createElement("div");
     parent.classList.add("list-card");
-    let image = new Image(270, 200);
+    let image = new Image(200, 200);
     let image_text = document.createElement("div");
     image.src = imageArray[i];
     image.classList.add("img");
@@ -48,6 +49,7 @@ headingDiv.appendChild(p);
 
   // append generated image and text to list-div so i can style it
   listDiv.appendChild(imagefragment);
+  listDiv.classList.add('showcase-list');
 
 // add class to main for better styling 
  parentDive.classList.add('main-showcase');

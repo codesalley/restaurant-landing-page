@@ -25,8 +25,7 @@ export default function foodList() {
     {
       src: "/src/assets/food/food-6.jpg",
       h2: "CREEK OLIVE",
-      P:
-        "with the release of Letraset sheets containing Lorem Ipsum passages, and more recently",
+      p: "with the release of Letraset sheets containing Lorem Ipsum passages, and more recently",
     },
     {
       src: "/src/assets/food/food-7.jpg",
@@ -50,7 +49,7 @@ export default function foodList() {
 
   for (let i = 0; i < dataArray.length; i++) {
     let listDiv = document.createElement("div");
-    let img = new Image(200, 180);
+    let img = new Image(200, 200);
     let h2 = document.createElement("h2");
     let p = document.createElement("p");
     img.src = dataArray[i].src;
@@ -72,6 +71,7 @@ export default function foodList() {
 
   headingDiv.appendChild(h2);
   headingDiv.appendChild(p);
+  headingDiv.classList.add('foodlist-heading');
 
   // body html striucture
   mainList.appendChild(listbucket);

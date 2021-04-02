@@ -4,6 +4,8 @@ import headerSlide from './componets/headerSlide.js';
 import mainShowcase from './componets/showcase.js';
 import articleSection from './componets/article';
 import foodlist from './componets/foodList';
+import footerStamp from './componets/footerStamp';
+import lastFooter  from './componets/footer';
 
 // main div  || body
 const main_div = document.querySelector('#content');
@@ -28,5 +30,11 @@ main_div.appendChild(articleSection());
 // main food display 
 main_div.appendChild(foodlist());
 
+// first footer 
 
+main_div.appendChild(footerStamp());
+
+// last footer 
+
+main_div.appendChild(lastFooter());
 
