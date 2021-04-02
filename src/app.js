@@ -3,6 +3,7 @@ import navbar from './componets/navbar.js';
 import headerSlide from './componets/headerSlide.js';
 import mainShowcase from './componets/showcase.js';
 import articleSection from './componets/article';
+import foodlist from './componets/foodList';
 
 // main div  || body
 const main_div = document.querySelector('#content');
@@ -25,4 +26,7 @@ main_div.appendChild(mainShowcase());
 main_div.appendChild(articleSection());
 
 // main food display 
+main_div.appendChild(foodlist());
+
+
 
