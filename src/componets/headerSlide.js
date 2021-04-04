@@ -7,7 +7,7 @@ export default function headerSlide(){
     let imagefragment = document.createDocumentFragment();
     var slider = new KeenSlider('#hero-slide', {
         loop: true, 
-        duration: 2000,
+        duration: 5000,
         dragStart: () => {
             autoplay(true);
         },
@@ -34,7 +34,7 @@ export default function headerSlide(){
           if (run && slider) {
             slider.next()
           }
-        }, 3000)
+        }, 8000)
       }
       // calling slider fuction
       autoplay(true);
