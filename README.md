@@ -1,1 +1,1 @@
-# resturant-landing-page
+# restaurant-landing-page
