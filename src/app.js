@@ -1,40 +1,39 @@
 // componets and libaries imports
-import navbar from './componets/navbar.js';
-import headerSlide from './componets/headerSlide.js';
-import mainShowcase from './componets/showcase.js';
+import navbar from './componets/navbar';
+import headerSlide from './componets/headerSlide';
+import mainShowcase from './componets/showcase';
 import articleSection from './componets/article';
 import foodlist from './componets/foodList';
 import footerStamp from './componets/footerStamp';
-import lastFooter  from './componets/footer';
+import lastFooter from './componets/footer';
 
 // main div  || body
-const main_div = document.querySelector('#content');
+const mainDiv = document.querySelector('#content');
 
 
-// rendering componets in order 
+// rendering componets in order
 
-//navbar
-main_div.appendChild(navbar());
+// navbar
+mainDiv.appendChild(navbar());
 
-//header slide
-main_div.appendChild(headerSlide()[1]);
+// header slide
+mainDiv.appendChild(headerSlide()[1]);
 // slide function
-headerSlide()[0];
+headerSlide();
 
 // showcase section
-main_div.appendChild(mainShowcase());
+mainDiv.appendChild(mainShowcase());
 
 // artcle section
-main_div.appendChild(articleSection());
+mainDiv.appendChild(articleSection());
 
-// main food display 
-main_div.appendChild(foodlist());
+// main food display
+mainDiv.appendChild(foodlist());
 
-// first footer 
+// first footer
 
-main_div.appendChild(footerStamp());
+mainDiv.appendChild(footerStamp());
 
-// last footer 
+// last footer
 
-main_div.appendChild(lastFooter());
-
+mainDiv.appendChild(lastFooter());
