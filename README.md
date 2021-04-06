@@ -16,7 +16,7 @@
 
 > clone repository into your computer by running in terminal
 
-> ``git clone https://github.com/juxsalley/restaurant-landing-page.git`
+> ``git clone https://github.com/juxsalley/restaurant-landing-page.git``
 
 > ``cd restaurant-landing-page``
 
