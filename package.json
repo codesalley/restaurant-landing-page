@@ -11,6 +11,7 @@
   "author": "codesalley",
   "license": "ISC",
   "devDependencies": {
+    "babel-eslint": "10.1.x",
     "css-loader": "^5.2.0",
     "eslint": "6.8.x",
     "eslint-config-airbnb-base": "14.1.x",

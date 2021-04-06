@@ -11,15 +11,16 @@ export default function navbar() {
   // nested divs
   const navTabs = ['Home', 'About', 'Contact'];
   navTabs.forEach((e) => {
-    const div = document.createElement('div');
+    const div = document.createElement('a');
+    div.href = '#tabs-section';
     div.innerText = e;
     navfracgent.appendChild(div);
   });
+
   navList.appendChild(navfracgent);
 
   navTag.appendChild(logoText);
   navTag.appendChild(navList);
-
 
   return navTag;
 }

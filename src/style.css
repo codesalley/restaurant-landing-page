@@ -11,6 +11,12 @@
   font-family: 'Pacifico', cursive;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #f1f4f5;
+}
+
 .show-heading {
   text-align: center;
   padding: 10px;
@@ -30,9 +36,33 @@ nav {
   justify-content: space-between;
 }
 
+nav a {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 1rem;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
+}
+
+ul li {
+  cursor: pointer;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+}
+
 nav div {
   color: white;
   display: flex;
+  flex-direction: row;
   padding-right: 20px;
   padding-top: 10px;
   font-size: 1rem;
@@ -84,11 +114,13 @@ nav h3 {
 
 .main-article {
   text-align: center;
+  height: 200px;
   padding: 5% 10%;
   margin: auto;
   line-height: 25px;
   background-color: #74a4c5;
   color: #f1f4f5;
+  overflow: hidden;
 }
 
 .btn {
