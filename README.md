@@ -1,5 +1,3 @@
-# Restaurant Page
-
 ### Foodiepad, A landing page of my favorite restaurant.  
 
 ![](./screenshot.png)
@@ -39,3 +37,4 @@ Feel free to check the [issues page](https://github.com/juxsalley/restaurant-lan
 
 ## Show your support
 Give a ⭐️ if you like this project!# restaurant-landing-page
+
